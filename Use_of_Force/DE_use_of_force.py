@@ -48,6 +48,7 @@ def main() -> None:
     df['year'] = df['date'].apply(lambda date: date.year)
     c19 = import_csv('burlington_population_2019.csv')
     years = list(df['year'].unique())
+    line_df = pd.DataFrame(columns=['year', 'race', 'rate'])
     
     # [VISUALIZATION] USE OF FORCE RACE STATS
     for year in years:
@@ -56,9 +57,17 @@ def main() -> None:
         race_dis.rename(columns={'index': 'race', 'race': 'total_reports'}, inplace=True)
         race_dis['percentage'] = ((race_dis['total_reports'] / race_dis['total_reports'].sum()) * 100)
         
+        # Grab values for line chart.
+        if line_df.empty:
+            line_df = pd.DataFrame.from_dict({'year': [year], 'race': ['White'], 'rate': [race_dis[race_dis['race'] == 'White'].percentage.values[0]]})
+            line_df = line_df.append(pd.DataFrame.from_dict({'year': [year], 'race': ['African American'], 'rate': [race_dis[race_dis['race'] == 'African American'].percentage.values[0]]}), ignore_index=True)
+        else:
+            line_df = line_df.append(pd.DataFrame.from_dict({'year': [year], 'race': ['White'], 'rate': [race_dis[race_dis['race'] == 'White'].percentage.values[0]]}), ignore_index=True)
+            line_df = line_df.append(pd.DataFrame.from_dict({'year': [year], 'race': ['African American'], 'rate': [race_dis[race_dis['race'] == 'African American'].percentage.values[0]]}), ignore_index=True)
+        
         fig, ax = plt.subplots(figsize=(10, 6))
         plt.bar(race_dis['race'], race_dis['total_reports'], color='#E81E1E')
-        plt.title(str(year) + ' Number of Use of Force Reportsby Race', fontsize=15, y=1.03)
+        plt.title(str(year) + ' Number of Use of Force Reports by Race', fontsize=15, y=1.03)
         plt.xticks(rotation=30, fontsize=13)
         plt.yticks(fontsize=13)
         plt.ylim(0, race_dis.total_reports.max() + 20)
@@ -92,10 +101,24 @@ def main() -> None:
         ax.annotate(percentage, (x, y), fontsize=12)
         
     plt.show()
+    
+    # [VISUALIZATION] LINE CHART OF USE OF FORCE OVER TIME
+    fig, ax = plt.subplots(figsize=(8, 6))
+    plt.title('Total Use of Force Reports by Race Over Time', fontsize=15, y=1.03)
+    plt.plot(line_df[line_df['race'] == 'White']['year'], line_df[line_df['race'] == 'White']['rate'], color='gray', label='White')
+    plt.plot(line_df[line_df['race'] == 'African American']['year'], line_df[line_df['race'] == 'African American']['rate'], color='black', label='Black')
+    plt.ylim(0, 100)
+    plt.ylabel('Percentage of Total Cases')
+    plt.legend()
+    plt.text(-.1, -0.15, 'Source: Burlington Police Open Data Sets', fontsize=12, transform=ax.transAxes)
+    
+    plt.show()
 
     # OTHER STUFF    
     race = df.groupby('race', as_index=False).sum()
-    print(c19)
+    print('\n', c19, '\n')
+    print('\n', race_dis, '\n')
+    print(line_df)
     
 
 if __name__ == "__main__":
