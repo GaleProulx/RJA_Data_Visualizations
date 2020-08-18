@@ -1,0 +1,195 @@
+date,race,type,Rate/10000
+05/11/20,Black or African American,infection,26.2
+05/11/20,White,infection,13.7
+05/11/20,Other Race,infection,9.5
+05/11/20,Asian,infection,8.4
+05/11/20,American Indian or Alaskan Native,infection,5.7
+05/11/20,Hispanic,infection,15.3
+05/11/20,Non-Hispanic,infection,12.6
+05/11/20,Asian,death,1.7
+05/11/20,Other Race,death,1.3
+05/11/20,White,death,0.8
+5/15/2020,Black or African American,infection,26.2
+5/15/2020,White,infection,13.7
+5/15/2020,Other Race,infection,9.5
+5/15/2020,Asian,infection,8.4
+5/15/2020,American Indian or Alaskan Native,infection,5.7
+5/15/2020,Hispanic,infection,18.3
+5/15/2020,Non-Hispanic,infection,13
+5/15/2020,Asian,death,1.7
+5/15/2020,Other Race,death,1.3
+5/15/2020,White,death,0.8
+5/22/2020,Black or African American,infection,26.2
+5/22/2020,White,infection,13.7
+5/22/2020,Other Race,infection,9.5
+5/22/2020,Asian,infection,8.4
+5/22/2020,American Indian or Alaskan Native,infection,5.7
+5/22/2020,Hispanic,infection,20.1
+5/22/2020,Non-Hispanic,infection,13.4
+5/22/2020,Asian,death,1.7
+5/22/2020,Other Race,death,1.3
+5/22/2020,White,death,0.8
+5/29/2020,Black or African American,infection,26.2
+5/29/2020,White,infection,13.7
+5/29/2020,Other Race,infection,9.5
+5/29/2020,Asian,infection,8.4
+5/29/2020,American Indian or Alaskan Native,infection,5.7
+5/29/2020,Hispanic,infection,20.9
+5/29/2020,Non-Hispanic,infection,13.7
+5/29/2020,Asian,death,1.7
+5/29/2020,Other Race,death,1.3
+05/29/2020,White,death,0.9
+06/05/20,Black or African American,infection,77.4
+06/05/20,White,infection,15.3
+06/05/20,Other Race,infection,7
+06/05/20,Asian,infection,16
+06/05/20,American Indian or Alaskan Native,infection,5.7
+06/05/20,Hispanic,infection,21.7
+06/05/20,Non-Hispanic,infection,14.5
+06/05/20,Black or African American,hospitalization,2.6
+06/05/20,White,hospitalization,1.9
+06/05/20,Asian,hospitalization,1.7
+06/05/20,Other Race,hospitalization,1.3
+06/05/20,Asian,death,1.7
+06/05/20,Other Race,death,1.3
+06/05/20,White,death,0.9
+06/12/20,Black or African American,infection,114.2
+06/12/20,White,infection,15.8
+06/12/20,Other Race,infection,7.6
+06/12/20,Asian,infection,36.3
+06/12/20,American Indian or Alaskan Native,infection,11.5
+06/12/20,Hispanic,infection,22.5
+06/12/20,Non-Hispanic,infection,15.9
+06/12/20,Black or African American,hospitalization,2.6
+06/12/20,White,hospitalization,1.9
+06/12/20,Asian,hospitalization,2.5
+06/12/20,Other Race,hospitalization,1.3
+06/12/20,Asian,death,1.7
+06/12/20,Other Race,death,0.6
+06/12/20,White,death,0.9
+06/19/20,Black or African American,infection,122
+06/19/20,White,infection,16.1
+06/19/20,Other Race,infection,7.6
+06/19/20,Asian,infection,40.5
+06/19/20,American Indian or Alaskan Native,infection,11.5
+06/19/20,Hispanic,infection,22.5
+06/19/20,Non-Hispanic,infection,15.9
+06/19/20,Black or African American,hospitalization,2.6
+06/19/20,White,hospitalization,1.9
+06/19/20,Asian,hospitalization,3.4
+06/19/20,Other Race,hospitalization,1.3
+06/19/20,Asian,death,1.7
+06/19/20,Other Race,death,0.6
+06/19/20,White,death,0.9
+06/26/20,Black or African American,infection,145.7
+06/26/20,White,infection,16.5
+06/26/20,Other Race,infection,14
+06/26/20,Asian,infection,44.7
+06/26/20,American Indian or Alaskan Native,infection,11.5
+06/26/20,Hispanic,infection,32.9
+06/26/20,Non-Hispanic,infection,16.9
+06/26/20,Black or African American,hospitalization,2.6
+06/26/20,White,hospitalization,1.9
+06/26/20,Asian,hospitalization,2.5
+06/26/20,Other Race,hospitalization,1.3
+06/26/20,Asian,death,1.7
+06/26/20,Other Race,death,0.6
+06/26/20,White,death,0.9
+07/02/20,Black or African American,infection,154.8
+07/02/20,White,infection,17
+07/02/20,Other Race,infection,14
+07/02/20,Asian,infection,44.7
+07/02/20,American Indian or Alaskan Native,infection,11.5
+07/02/20,Hispanic,infection,33.7
+07/02/20,Non-Hispanic,infection,17.4
+07/02/20,Black or African American,hospitalization,2.6
+07/02/20,White,hospitalization,1.9
+07/02/20,Asian,hospitalization,2.5
+07/02/20,Other Race,hospitalization,1.3
+07/02/20,Asian,death,1.7
+07/02/20,Other Race,death,0.6
+07/02/20,White,death,0.9
+07/10/20,Black or African American,infection,178.5
+07/10/20,White,infection,17.4
+07/10/20,Other Race,infection,14.6
+07/10/20,Asian,infection,44.7
+07/10/20,American Indian or Alaskan Native,infection,11.5
+07/10/20,Hispanic,infection,34.5
+07/10/20,Non-Hispanic,infection,18.1
+07/10/20,Black or African American,hospitalization,2.6
+07/10/20,White,hospitalization,2
+07/10/20,Asian,hospitalization,3.4
+07/10/20,Other Race,hospitalization,1.3
+07/10/20,Asian,death,1.7
+07/10/20,Other Race,death,0.6
+07/10/20,White,death,0.9
+07/17/20,Black or African American,infection,194.2
+07/17/20,White,infection,18
+07/17/20,Other Race,infection,16.5
+07/17/20,Asian,infection,44.7
+07/17/20,American Indian or Alaskan Native,infection,11.5
+07/17/20,Hispanic,infection,38.6
+07/17/20,Non-Hispanic,infection,18.8
+07/17/20,Black or African American,hospitalization,3.9
+07/17/20,White,hospitalization,2
+07/17/20,Asian,hospitalization,3.4
+07/17/20,Other Race,hospitalization,1.3
+07/17/20,Asian,death,1.7
+07/17/20,Other Race,death,0.6
+07/17/20,White,death,0.9
+07/24/20,Black or African American,infection,208.6
+07/24/20,White,infection,18.5
+07/24/20,Other Race,infection,18.4
+07/24/20,Asian,infection,44.7
+07/24/20,American Indian or Alaskan Native,infection,11.5
+07/24/20,Hispanic,infection,40.2
+07/24/20,Non-Hispanic,infection,19.4
+07/24/20,Black or African American,hospitalization,3.9
+07/24/20,White,hospitalization,2.1
+07/24/20,Asian,hospitalization,3.4
+07/24/20,Other Race,hospitalization,1.3
+07/24/20,Asian,death,1.7
+07/24/20,Other Race,death,0.6
+07/24/20,White,death,0.9
+07/30/20,Black or African American,infection,211.3
+07/30/20,White,infection,19
+07/30/20,Other Race,infection,18.4
+07/30/20,Asian,infection,45.5
+07/30/20,American Indian or Alaskan Native,infection,11.5
+07/30/20,Hispanic,infection,41.8
+07/30/20,Non-Hispanic,infection,19.8
+07/30/20,Black or African American,hospitalization,3.9
+07/30/20,White,hospitalization,2.1
+07/30/20,Asian,hospitalization,3.4
+07/30/20,Other Race,hospitalization,1.3
+07/30/20,Asian,death,1.7
+07/30/20,Other Race,death,0.6
+07/30/20,White,death,0.9
+08/07/20,Black or African American,infection,215.2
+08/07/20,White,infection,19.6
+08/07/20,Other Race,infection,19.1
+08/07/20,Asian,infection,45.5
+08/07/20,American Indian or Alaskan Native,infection,11.5
+08/07/20,Hispanic,infection,41.8
+08/07/20,Non-Hispanic,infection,20.7
+08/07/20,Black or African American,hospitalization,3.9
+08/07/20,White,hospitalization,2.1
+08/07/20,Asian,hospitalization,3.4
+08/07/20,Other Race,hospitalization,1.3
+08/07/20,Asian,death,1.7
+08/07/20,Other Race,death,0.6
+08/07/20,White,death,0.9
+08/14/20,Black or African American,infection,217.8
+08/14/20,White,infection,20.2
+08/14/20,Other Race,infection,17.8
+08/14/20,Asian,infection,45.5
+08/14/20,American Indian or Alaskan Native,infection,11.5
+08/14/20,Hispanic,infection,45
+08/14/20,Non-Hispanic,infection,21.6
+08/14/20,Black or African American,hospitalization,3.9
+08/14/20,White,hospitalization,2.4
+08/14/20,Asian,hospitalization,3.4
+08/14/20,Other Race,hospitalization,1.3
+08/14/20,Asian,death,1.7
+08/14/20,Other Race,death,0.6
+08/14/20,White,death,0.9
