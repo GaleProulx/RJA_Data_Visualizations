@@ -277,3 +277,52 @@ date,race,type,Rate/10000
 09/25/20,Asian,death,1.7
 09/25/20,Other Race,death,0.6
 09/25/20,White,death,0.9
+09/25/20,Black or African American,testing,0.227
+09/25/20,White,testing,0.132
+09/25/20,Other Race,testing,0.223
+09/25/20,Asian,testing,0.185
+09/25/20,American Indian or Alaskan Native,testing,0.223
+09/25/20,Hispanic,testing,0.138
+09/25/20,Non-Hispanic,testing,0.117
+10/2/20,Black or African American,infection,198.3
+10/2/20,White,infection,24.1
+10/2/20,Other Race,infection,29.9
+10/2/20,Asian,infection,55.2
+10/2/20,American Indian or Alaskan Native,infection,0
+10/2/20,Hispanic,infection,46.4
+10/2/20,Non-Hispanic,infection,25.6
+10/2/20,Black or African American,hospitalization,0
+10/2/20,White,hospitalization,2.1
+10/2/20,Asian,hospitalization,0
+10/2/20,Other Race,hospitalization,0
+10/2/20,Asian,death,1.7
+10/2/20,Other Race,death,0.6
+10/2/20,White,death,0.9
+10/2/20,Black or African American,testing,0.204
+10/2/20,White,testing,0.138
+10/2/20,Other Race,testing,0.293
+10/2/20,Asian,testing,0.189
+10/2/20,American Indian or Alaskan Native,testing,0.178
+10/2/20,Hispanic,testing,0.139
+10/2/20,Non-Hispanic,testing,0.122
+10/9/20,Black or African American,infection,224.5
+10/9/20,White,infection,24.9
+10/9/20,Other Race,infection,31.5
+10/9/20,Asian,infection,57.7
+10/9/20,American Indian or Alaskan Native,infection,0
+10/9/20,Hispanic,infection,48.7
+10/9/20,Non-Hispanic,infection,26.6
+10/9/20,Black or African American,hospitalization,0
+10/9/20,White,hospitalization,0
+10/9/20,Asian,hospitalization,0
+10/9/20,Other Race,hospitalization,0
+10/9/20,Asian,death,1.7
+10/9/20,Other Race,death,0.8
+10/9/20,White,death,0.9
+10/9/20,Black or African American,testing,0.217
+10/9/20,White,testing,0.144
+10/9/20,Other Race,testing,0.303
+10/9/20,Asian,testing,0.197
+10/9/20,American Indian or Alaskan Native,testing,0.182
+10/9/20,Hispanic,testing,0.147
+10/9/20,Non-Hispanic,testing,0.127
